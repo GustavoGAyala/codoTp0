@@ -8,9 +8,3 @@ fetch(URL)
     audio.src = data[0].url;
   });
   */
-const host = 'https://api.frankfurter.app/latest?from=USD';
-fetch(host)
-  .then(resp => resp.json())
-  .then((data) => {
-    console.log(data);
-  });
