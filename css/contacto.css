@@ -1,0 +1,40 @@
+body{    
+    background-image: url("../img/fondo5.jpg");
+    background-repeat: repeat-x repeat-y;
+    background-attachment: fixed;
+    background-position: center;
+        
+}
+h1{
+    font-family: sans-serif;
+    font-size: 45px;
+    color: green;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+nav{
+    font-family: sans-serif;
+}
+a{
+    font-size: x-large;
+    margin-left: 10px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+a:hover{
+    color:#ff00f2;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
