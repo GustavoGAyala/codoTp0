@@ -19,8 +19,5 @@ function agregartxt1(){
     
     document.getElementById("boxTasas").appendChild(text);
     var text2 = document.createTextNode(JSON.stringify(dato2))
-    document.getElementById("boxTasas2").appendChild(text2)
-               
-                                      
-     
+    document.getElementById("boxTasas2").appendChild(text2)    
     }

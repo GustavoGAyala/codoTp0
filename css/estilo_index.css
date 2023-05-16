@@ -2,14 +2,13 @@ body{
     background-image: url("../img/fondo5.jpg");
     background-repeat: repeat-x repeat-y;
     background-attachment: fixed;
-    background-position: center;
-        
+    background-position: center;        
 }
 h1{
     background-color: rgba(0, 66, 0, 30%);
     font-family: sans-serif;
     font-size: 45px;
-    color: green;
+    color: rgb(0, 128, 17);
     text-align: center;
 }
 h2{
