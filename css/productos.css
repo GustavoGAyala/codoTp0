@@ -2,8 +2,7 @@ body{
     background-image: url("../img/fondo5.jpg");
     background-repeat: repeat-x repeat-y;
     background-attachment: fixed;
-    background-position: center;
-        
+    background-position: center;        
 }
 h1{
     font-family: sans-serif;
@@ -38,3 +37,17 @@ a:hover{
       width: 100%;
     }
   }
+.flex-item{
+    
+    background-color: aquamarine;
+    flex-wrap: wrap;
+}
+.flex-container{
+    display:ruby-base-container;
+    justify-content: space-between;
+    flex-wrap:unset;
+}
+.flex-parrafo{
+    width: 600px;
+    
+}

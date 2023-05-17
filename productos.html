@@ -21,33 +21,46 @@
         </nav>
     </div>
     <!--contenedor de los productos-->
-    <div id="listaProductos">
+    <div id="listaProductos" class="flex-container">
         <!--lista con imagenes de nuestros productos-->
-        <ul>
-            <li>Detalles del producto:</li>
-            <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            <li>Detalles del producto:</li>
-            <li>Pantalla de 32 Pulgadas <img src="img/carrusel-MuseoDelDeporte-_9_.png" alt="Monitor ilustrativo"></li>
-            <li>Detalles del producto:</li>
-            <li>Pantalla de 42 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            <li>Detalles del producto:</li>
-            <li>Pantalla de 55 Pulgadas. <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            <li>Detalles del producto:</li>
-            <li>Pantalla de 63 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            <li>Detalles del producto:</li>
-        </ul>
+        
+            <div class="flex-item">
+                <li>Detalles del producto:</li>
+                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
+            </div>
+            
+            <div class="flex-item">
+                <li>Detalles del producto:</li>
+                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
+            </div>
+
+            <div class="flex-item">
+                <li>Detalles del producto:</li>
+                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
+            </div>
+
+            <div class="flex-item">
+                <li>Detalles del producto:</li>
+                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
+            </div>
+
+            <div class="flex-item">
+                <li>Detalles del producto:</li>
+                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
+            </div>
+        
 
     </div>
     <script src="js/productos.js"></script>
-    <section>
+    
 
-        <div>
-            <p>Haga click en el boton para consultar las referencias y las tasas actuales del tipo de cambio del banco europeo en relacion con el EURO</p>
-            <p id="boxTasas"></p>
-            <p id="boxTasas2"></p>
-            <button type="button" id="btnTasas" onclick="agregartxt1()">Consultar</button>
-        </div>
-        
-    </section>
+    <div class="flex-container">
+        <div class="flex-item">Haga click en el boton para consultar las referencias y las tasas actuales del tipo de cambio del banco europeo en relacion con el EURO</div>
+            
+        <div id="boxTasas" class="flex-parrafo"></div>
+        <div id="boxTasas2" class="flex-parrafo"></div>            
+        <button type="button" id="btnTasas" onclick="agregartxt1()">Consultar</button>
+    </div>      
+    
 </body>
 </html>
