@@ -11,23 +11,16 @@ const host2 = 'https://api.frankfurter.app/latest';
 var dato2 = "";
     fetch(host2)
         .then(resp => resp.json())
-        .then((data) => {
+        .then(data => {
             dato2 = data.rates;
             });
-function replacer(key, value) {
-              // Filtrando propiedades
-  if (typeof value === "string") {
-    return undefined;
-    }
 
-  return value;
-}
 function agregartxt1(){
     var text = document.createTextNode(JSON.stringify(dato));  
     
     document.getElementById("boxTasas").appendChild(text);
 
-    var text2 = document.createTextNode(JSON.stringify(dato2, replacer));
+    var text2 = document.createTextNode(JSON.stringify(dato2));
 
     console.log(text2);
 

@@ -8,21 +8,38 @@ h1{
     background-color: rgba(0, 66, 0, 30%);
     font-family: sans-serif;
     font-size: 45px;
-    color: rgb(0, 128, 17);
+    color: rgb(2, 2, 2);
     text-align: center;
 }
 h2{
     font-size: 25px;
     text-align: center;
 }
+h3{
+    color: blanchedalmond;
+}
 nav{
+    text-align: center;
+    
     font-family: sans-serif;
+}
+.box{
+    background-color: black;
+    display: flex;
+    justify-content: center;   
+    
+}
+.flex-container{
+    justify-content: center;
+    
+    display: flex;
 }
 a{
     font-size: x-large;
     margin-left: 10px;
     animation-duration: 2s;
     animation-name: slidein;
+    color: aqua;
 }
 a:hover{
     color:#ff00f2;
@@ -30,7 +47,7 @@ a:hover{
 @keyframes slidein {
     from {
       margin-left: 100%;
-      width: 300%
+      width: 100%
     }
   
     to {

@@ -9,58 +9,78 @@
     <LINK href="css/productos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Lo mejor en Pantallas "tienda virtual"</h1>
-    <h2>"Productos"</h2>
-    <div>
+    <div id="barNav" class="box">
         <nav>
+        
+            <!--barra de navegacion principal-->
             <a href="index.html">Pagina principal</a>
             <a href="nuestraHistoria.html">Nuestra Historia</a>
             <a href="productos.html">Productos</a>
             <a href="servicioTecnico.html">Servicio Tecnico</a>
             <a href="contacto.html">Contacto</a>
+            
         </nav>
     </div>
-    <!--contenedor de los productos-->
-    <div id="listaProductos" class="flex-container">
+
+    <head>
+        <!--titulo de la web-->
+        <h1>Lo mejor en Pantallas "tienda virtual"</h1>
+        <!--titulo independiente de cada seccion-->
+        <h2>"la mejor experiencia virtual"</h2>    
+    </head>  
+    
+    
+    <div class="box">
         <!--lista con imagenes de nuestros productos-->
         
-            <div class="flex-item">
-                <li>Detalles del producto:</li>
-                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            </div>
+        <div class="box">
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
             
-            <div class="flex-item">
-                <li>Detalles del producto:</li>
-                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            </div>
+        <div class="box">
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
 
-            <div class="flex-item">
-                <li>Detalles del producto:</li>
-                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            </div>
+        <div class="box">
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
 
-            <div class="flex-item">
-                <li>Detalles del producto:</li>
-                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            </div>
+        <div class="box">
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
 
-            <div class="flex-item">
-                <li>Detalles del producto:</li>
-                <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            </div>
-        
-
+        <div class="box">
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
     </div>
-    <script src="js/productos.js"></script>
-    
+
+    <script src="js/productos.js"></script>    
 
     <div class="flex-container">
-        <div class="flex-item">Haga click en el boton para consultar las referencias y las tasas actuales del tipo de cambio del banco europeo en relacion con el EURO</div>
+
+        <div class="flex-item">
+            <p>Haga click en el boton para consultar las referencias y las tasas actuales del tipo de cambio del banco europeo en relacion con el EURO</p>
             
-        <div id="boxTasas" class="flex-parrafo"></div>
-        <div id="boxTasas2" class="flex-parrafo"></div>            
+        </div>
+            
+        <div class="flex-parrafo">
+            <p id="boxTasas" ></p>
+        </div>
+        <div  class="flex-parrafo">
+            <p id="boxTasas2"></p>
+        </div>            
         <button type="button" id="btnTasas" onclick="agregartxt1()">Consultar</button>
     </div>      
-    
+    <div id="redes">
+        <img src="img/redes/facebook.png" alt="icono facebook">
+        <img src="img/redes/instagram.png" alt="icono instagram">
+        <img src="img/redes/whatsapp.png" alt="icono whatsapp">
+        <h3>Nuestras redes sociales.</h3>
+    </div>
 </body>
 </html>
