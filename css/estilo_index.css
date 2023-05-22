@@ -15,31 +15,25 @@ h2{
     font-size: 25px;
     text-align: center;
 }
-p{
-    color:rgb(0, 0, 0);
-}
-
 h3{
     color: blanchedalmond;
 }
-#redes{
-    text-align: center;
-    background-color: black;
-    
-}
 nav{
     text-align: center;
-    background-color: black;  
+    
     font-family: sans-serif;
 }
 .box{
-    background-color: rgb(255, 255, 255);
-    display:flex;
-    justify-content: center;  
-    text-align: center;
-    flex-direction: column;  
+    background-color: black;
+    display: flex;
+    justify-content: center;   
+    
 }
-
+.flex-container{
+    justify-content: center;
+    
+    display: flex;
+}
 a{
     font-size: x-large;
     margin-left: 10px;
@@ -50,21 +44,14 @@ a{
 a:hover{
     color:#ff00f2;
 }
-#boxTasas{
-    background-color: aqua;
-    color: rgb(0, 0, 0);
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    
-    top: 40px;
-    left: 40px;
-
-}
-#boxTasas2{
-    justify-content: center;
-    text-align: center;
-    text-justify:auto;
-
-}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

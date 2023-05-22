@@ -1,9 +1,10 @@
-let suma=0;
 
-for(var i=0;i<=5;i++){
-
-  suma=suma+i;
-
-}
-
-console.log(i);
+/*
+const URL = "https://musicbrainz.org/ws/2/."
+fetch(URL)
+  .then(res => res.json())
+  .then(data => {
+    const audio = document.querySelector('audio');
+    audio.src = data[0].url;
+  });
+*/

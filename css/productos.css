@@ -1,0 +1,70 @@
+body{    
+    background-image: url("../img/fondo5.jpg");
+    background-repeat: repeat-x repeat-y;
+    background-attachment: fixed;
+    background-position: center;        
+}
+h1{
+    background-color: rgba(0, 66, 0, 30%);
+    font-family: sans-serif;
+    font-size: 45px;
+    color: rgb(2, 2, 2);
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    color:rgb(0, 0, 0);
+}
+
+h3{
+    color: blanchedalmond;
+}
+#redes{
+    text-align: center;
+    background-color: black;
+    
+}
+nav{
+    text-align: center;
+    background-color: black;  
+    font-family: sans-serif;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;  
+    text-align: center;
+    flex-direction: column;  
+}
+
+a{
+    font-size: x-large;
+    margin-left: 10px;
+    animation-duration: 2s;
+    animation-name: slidein;
+    color: aqua;
+}
+a:hover{
+    color:#ff00f2;
+}
+#boxTasas{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+    top: 40px;
+    left: 40px;
+
+}
+#boxTasas2{
+    justify-content: center;
+    text-align: center;
+    text-justify:auto;
+
+}

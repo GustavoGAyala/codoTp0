@@ -6,28 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
     <link rel="icon" href="img/iconPantalla.png">
+    <LINK href="css/productos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Lo mejor en Pantallas "tienda virtual"</h1>
-    <h2>"Productos"</h2>
-    <div>
+    <div id="barNav" class="box">
         <nav>
+        
+            <!--barra de navegacion principal-->
             <a href="index.html">Pagina principal</a>
             <a href="nuestraHistoria.html">Nuestra Historia</a>
             <a href="productos.html">Productos</a>
             <a href="servicioTecnico.html">Servicio Tecnico</a>
             <a href="contacto.html">Contacto</a>
+            
         </nav>
     </div>
-    <div id="listaProductos">
-        <ul>
-            <li>Pantalla de 22 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            <li>Pantalla de 32 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            <li>Pantalla de 42 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            <li>Pantalla de 55 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-            <li>Pantalla de 63 Pulgadas <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo"></li>
-        </ul>
 
+    <head>
+        <!--titulo de la web-->
+        <h1>Lo mejor en Pantallas "tienda virtual"</h1>
+        <!--titulo independiente de cada seccion-->
+        <h2>"Productos"</h2>    
+    </head>  
+    
+    <div class="box">
+
+        <div>
+            <p>Haga click en el boton para consultar las referencias y las tasas actuales del tipo de cambio del banco europeo en relacion con el EURO</p>            
+        </div>
+
+        <div>
+            <p id="boxTasas" ></p>
+        
+
+        <div><p id="boxTasas2"></p></div>
+            
+        </div>
+        <div><button type="button" id="btnTasas" onclick="agregartxt1()">Consultar</button></div>
+
+        
+    </div>      
+    <div class="box">
+        <!--lista con imagenes de nuestros productos-->
+        
+        <div>
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
+            
+        <div>
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
+
+        <div>
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
+
+        <div>
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
+
+        <div>
+            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
+            <p>descripcion</p>
+        </div>
+    </div>
+
+    <script src="js/productos.js"></script>    
+
+    
+    <div id="redes">
+        <img src="img/redes/facebook.png" alt="icono facebook">
+        <img src="img/redes/instagram.png" alt="icono instagram">
+        <img src="img/redes/whatsapp.png" alt="icono whatsapp">
+        <h3>Nuestras redes sociales.</h3>
     </div>
 </body>
 </html>
