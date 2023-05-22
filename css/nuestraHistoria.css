@@ -50,21 +50,3 @@ a{
 a:hover{
     color:#ff00f2;
 }
-#boxTasas{
-    background-color: aqua;
-    color: rgb(0, 0, 0);
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    
-    top: 40px;
-    left: 40px;
-
-}
-#boxTasas2{
-    justify-content: center;
-    text-align: center;
-    text-justify:auto;
-
-}
