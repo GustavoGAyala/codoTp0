@@ -1,9 +1,44 @@
-body{    
+body {
+    --screen: "small";
     background-image: url("../img/fondo5.jpg");
     background-repeat: repeat-x repeat-y;
     background-attachment: fixed;
     background-position: center;        
+    text-align: center;
 }
+
+.flex-container{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+  
+  @media (min-width: 400px) {
+   
+    body {
+        --screen: "medium";
+        background-image: url("../img/fondo5.jpg");
+        background-repeat: repeat-x repeat-y;
+        background-attachment: fixed;
+        background-position: center;        
+    }
+   
+  }
+  
+  @media (min-width: 800px) {
+   
+    body {
+        --screen: "large";
+        background-image: url("../img/fondo5.jpg");
+        background-repeat: repeat-x repeat-y;
+        background-attachment: fixed;
+        background-position: center;        
+    }
+   
+  }
+
+
+
 h1{
     background-color: rgba(0, 66, 0, 30%);
     font-family: sans-serif;
@@ -29,11 +64,7 @@ nav{
     justify-content: center;   
     
 }
-.flex-container{
-    justify-content: center;
-    
-    display: flex;
-}
+
 a{
     font-size: x-large;
     margin-left: 10px;
@@ -55,3 +86,5 @@ a:hover{
       width: 100%;
     }
   }
+
+  
