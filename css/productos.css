@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     background-position: center;        
 }
+
 h1{
     background-color: rgba(0, 66, 0, 30%);
     font-family: sans-serif;
@@ -33,11 +34,23 @@ nav{
     font-family: sans-serif;
 }
 .box{
+    --screen: "small";
     background-color: rgb(255, 255, 255);
-    display:flex;
-    justify-content: center;  
+    display:flex;    
+    
+    flex-wrap:inherit;
+    
+    align-content: space-between; 
+    
     text-align: center;
-    flex-direction: column;  
+    flex-direction:column;
+    
+}
+.flex-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 
 a{
