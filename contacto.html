@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,63 +9,72 @@
     <link rel="icon" href="img/iconPantalla.png">
     <LINK href="css/contacto.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <div>
         <nav>
             <a href="index.html">Pagina principal</a>
             <a href="nuestraHistoria.html">Nuestra Historia</a>
             <a href="productos.html">Productos</a>
-            <a href="servicioTecnico.html">Servicio Tecnico</a>
             <a href="contacto.html">Contacto</a>
         </nav>
     </div>
-
     <h1>Lo mejor en Pantallas "tienda virtual"</h1>
-
     <h2>"Contacto"</h2>
-    
-    <!--seccion donde va a estar el formulario y su boton enviar-->
-    <section>
-        <form action="MAILTO:email@mail.com">
-            <p>Los campos obligatorios se marcan con un <abbr title = "required">*</abbr>.</p>
-            <!-- Así que esto: -->
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre">
-                <label for="nombre"><abbr title="required" aria-label="required">*</abbr></label>
-
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido">
-                <label for="apellido"><abbr title="required" aria-label="required">*</abbr></label>
-
-                <label for="telefono">Telefono:</label>
-                <input type="text" name="telefono">
-                <label for="telefono"><abbr title="required" aria-label="required">*</abbr></label>
-
-
-                <label for="mail">Mail:</label>
-                <input type="text" name="mail">
-                <label for="mail"><abbr title="required" aria-label="required">*</abbr></label>
-                <br>
-                <br>
-
-                <label for="comentarios">Comentarios:</label>
-                <textarea name="comentarios" cols="90" rows="5"></textarea>
-                <label for="comentarios"><abbr title="required" aria-label="required">*</abbr></label>    
-                
+    <form action="" method="POST" id="form">
+        <div class="form">
+            <h4>Formulario de contacto: </h4>
+            <p>Los campos obligatorios se marcan con un (*)</p>
+            <div Class="grupo">
+                <input type="text" name="" id="name"><span class="barra"></span>
+                <label for="">(*)Nombre:</label>
+            </div>
+            <div Class="grupo">
+                <input type="text" name="" id="apellido"><span class="barra"></span>
+                <label for="">(*)Apellido:</label>
+            </div>
+            <div Class="grupo">
+                <input type="number" name="" id="telefono"><span class="barra"></span>
+                <label for="">(*)Telefono:</label>
+            </div>
+            <div Class="grupo">
+                <input type="email" name="" id="email" placeholder="sophie@example.com"><span class="barra"></span>
+                <label for="">(*)Mail:</label>
+            </div>
+            <div Class="grupo">
+                <textarea name="comentarios" cols="90" rows="5"></textarea><span class="barra"></span>
+                <label for="">Comentarios:</label>
             </div>
 
-            <p> <button type="submit">Enviar mail.</button> </p>
-        </form>
-    </section>
+            <button type="submit">Enviar formulario</button>
+            <p class="warnings" id="warnings"></p>
+        </div>
+    </form>
+<!-- 
     <div class="mapouter">
         <div class="gmap_canvas">
-            <iframe width="820" height="560" id="gmap_canvas" src="https://maps.google.com/maps?q=cordoba+3554&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <iframe width="820" height="560" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=cordoba+3554&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"></iframe>
             <a href="https://online.stopwatch-timer.net/"></a>
             <br>
-            <style>.mapouter{position: relative;text-align: right;height: 560px;width: 820px;}</style>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 560px;
+                    width: 820px;
+                }
+            </style>
             <a href="https://www.embedmaps.co">embed google maps api</a>
-            <style>.gmap_canvas{overflow: hidden;background: none !important;height: 560px;width: 820px;}</style>
+            <style>
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 560px;
+                    width: 820px;
+                }
+            </style>
         </div>
     </div>
     <script src="js/contacto.js"></script>
@@ -74,7 +84,10 @@
         <img src="img/redes/whatsapp.png" alt="icono whatsapp">
         <h3>Nuestras redes sociales.</h3>
     </div>
+-->
+    
 </body>
+
 </html>
 
 <!--

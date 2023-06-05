@@ -9,69 +9,75 @@
     <LINK href="css/productos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+
     <div id="barNav" class="box">
         <nav>
         
             <!--barra de navegacion principal-->
             <a href="index.html">Pagina principal</a>
             <a href="nuestraHistoria.html">Nuestra Historia</a>
-            <a href="productos.html">Productos</a>
-            <a href="servicioTecnico.html">Servicio Tecnico</a>
+            <a href="productos.html">Productos</a>            
             <a href="contacto.html">Contacto</a>
             
         </nav>
     </div>
-
     <head>
         <!--titulo de la web-->
         <h1>Lo mejor en Pantallas "tienda virtual"</h1>
         <!--titulo independiente de cada seccion-->
         <h2>"Productos"</h2>    
-    </head>  
+    </head>
     
-    <div class="box">
-
+    
+    <div class="flex-container">
         <div>
             <p>Haga click en el boton para consultar las referencias y las tasas actuales del tipo de cambio del banco europeo en relacion con el EURO</p>            
         </div>
 
-        <div>
-            <p id="boxTasas" ></p>
-        
-
-        <div><p id="boxTasas2"></p></div>
-            
+        <div>Tasas
+            <p id="boxTasas"></p>
         </div>
-        <div><button type="button" id="btnTasas" onclick="agregartxt1()">Consultar</button></div>
 
+        <div>Resultados
+            <p id="boxTasas2"></p>
+        </div>
+
+        <div>
+            <button type="button" id="btnTasas" onclick="agregartxt1()">Consultar</button>
+        </div>       
+    </div>    
         
-    </div>      
-    <div class="flex-container">
+    <div class="row">
         <!--lista con imagenes de nuestros productos-->
         
-        <div>
-            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
-            <p>descripcion</p>
+        <div class="column"><p>Producto:</p>
+            <img id="imgProducto" src="img/productos/producto1.jpg" alt="Monitor ilustrativo">
+            <p id="textProductoDescrption">Pantalla Sansui LED Smart TV de 32 Pulgadas HD SMX32D6HR</p>
         </div>
             
-        <div>
-            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
-            <p>descripcion</p>
+        <div class="column"><p>Producto:</p>
+            <img id="imgProducto" src="img/productos/producto2.jpg" alt="Monitor ilustrativo">
+            <p id="textProductoDescrption">Pantalla Sansui LED smart TV de 32 pulgadas HD SMX32V1HA con Android TV</p>
         </div>
 
-        <div>
-            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
-            <p>descripcion</p>
+        <div class="column"><p>Producto:</p>
+            <img id="imgProducto" src="img/productos/producto3.jpg" alt="Monitor ilustrativo">
+            <p id="textProductoDescrption">Pantalla Sansui LED Smart TV de 40 Pulgadas Dolby Atmos/HDR Dolby Vision SMX40V1FA con Android TV</p>
         </div>
 
-        <div>
-            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
-            <p>descripcion</p>
+        <div class="column"><p>Producto:</p>
+            <img id="imgProducto" src="img/productos/producto4.jpg" alt="Monitor ilustrativo">
+            <p id="textProductoDescrption">Pantalla Sansui LCD Smart TV de 43 Pulgadas 4K/UHD SMX43T1UA con Android TV</p>
         </div>
 
-        <div>
-            <img src="img/monitor-4k-curvo-gaming-269eu-2797825.webp" alt="Monitor ilustrativo">
-            <p>descripcion</p>
+        <div class="column"><p>Producto:</p>
+            <img id="imgProducto" src="img/productos/producto5.jpg" alt="Monitor ilustrativo">
+            <p id="textProductoDescrption">Pantalla Silo LED Smart TV de 50 Pulgadas Full HD SL50V22E</p>
+        </div>
+
+        <div class="column"><p>Producto:</p>
+            <img id="imgProducto" src="img/productos/producto6.jpg" alt="Monitor ilustrativo">
+            <p id="textProductoDescrption">Pantalla TCL LED 55s454 smart TV de 55 pulgadas 4K/UHD con Google tv</p>
         </div>
     </div>
 

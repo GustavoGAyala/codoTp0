@@ -1,5 +1,6 @@
 //Validación de un formulario con Javascript
 //Fuente: https://desarrolloweb.com/articulos/1767.php
+/*
 function valida_envia() {
     //valido el nombre
     if (document.fvalida.nombre.value.length == 0) {
@@ -50,3 +51,38 @@ function validarEntero(valor) {
         return valor
     }
 }
+*/
+
+
+const nombre = document.getElementById("name")
+const apellido = document.getElementById("apellido")
+const telefono = document.getElementById("telefono")
+const email = document.getElementById("email")
+const parrafo = document.getElementById("warnings")
+const form = document.getElementById("form")
+
+form.addEventListener("submit", e=>{
+    e.preventDefault()
+    let entrar = false
+    let warnings = ""
+    let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    if(nombre.nodeValue.length<2){
+        warnings += 'El nombre no es valido <br>'
+        entrar = true
+    }
+    console.log(regexEmail.test(email.value))
+    if(apellido.nodeValue.length<2){
+        warnings += 'El apellido no es valido <br>'
+        entrar = true
+    }
+    
+    if(regexEmail.test(email.value)){
+        warnings += 'El mail no es valido <br>'
+        entrar = true
+
+    }
+    if(entrar){
+        parrafo.innerHTML = warnings
+    }
+    
+})
