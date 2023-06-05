@@ -16,14 +16,13 @@ var dato2 = "";
             });
 
 function agregartxt1(){
+  //la primer variable se acomoda sola, por que su JSON ya viene ordenado
     var text = document.createTextNode(JSON.stringify(dato));  
     
     document.getElementById("boxTasas").appendChild(text);
 
-    var text2 = document.createTextNode(JSON.stringify(dato2));
-
-    console.log(text2);
-
+//esta variable tube que hacer una tabulacion para que quede ordenada
+    var text2 = document.createTextNode(JSON.stringify(dato2, null, '\t'));
 
     document.getElementById("boxTasas2").appendChild(text2);
 

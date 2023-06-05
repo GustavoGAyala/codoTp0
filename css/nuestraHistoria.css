@@ -1,4 +1,13 @@
-body{    
+*{
+    box-sizing: border-box;
+}
+#imagenHistoria{
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;    
     background-image: url("../img/fondo5.jpg");
     background-repeat: repeat-x repeat-y;
     background-attachment: fixed;
@@ -21,6 +30,9 @@ p{
 
 h3{
     color: blanchedalmond;
+}
+h4{
+    color: black
 }
 #redes{
     text-align: center;
@@ -47,6 +59,13 @@ a{
     animation-name: slidein;
     color: aqua;
 }
+
+.flex-container{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+  
 a:hover{
     color:#ff00f2;
 }

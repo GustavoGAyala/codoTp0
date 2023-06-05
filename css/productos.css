@@ -1,10 +1,47 @@
-body{    
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;    
     background-image: url("../img/fondo5.jpg");
     background-repeat: repeat-x repeat-y;
     background-attachment: fixed;
     background-position: center;        
 }
 
+#imgProducto{
+    width: 100%;
+}
+.flex-container{
+    display: flex;
+    background-color: rgb(127, 129, 255);
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex-container div{
+    background-color: aquamarine;
+    padding: 10px;
+}
+.flex-container div p{
+    font-family: sans-serif;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column{
+    padding: 10px;
+    margin: 10px;
+    max-width: 800px;
+    
+}
 h1{
     background-color: rgba(0, 66, 0, 30%);
     font-family: sans-serif;
@@ -16,7 +53,11 @@ h2{
     font-size: 25px;
     text-align: center;
 }
+#textProductoDescrption{
+    text-align: center;
+}
 p{
+    font-family: sans-serif;
     color:rgb(0, 0, 0);
 }
 
@@ -25,32 +66,12 @@ h3{
 }
 #redes{
     text-align: center;
-    background-color: black;
-    
+    background-color: black;    
 }
 nav{
     text-align: center;
     background-color: black;  
     font-family: sans-serif;
-}
-.box{
-    --screen: "small";
-    background-color: rgb(255, 255, 255);
-    display:flex;    
-    
-    flex-wrap:inherit;
-    
-    align-content: space-between; 
-    
-    text-align: center;
-    flex-direction:column;
-    
-}
-.flex-container{
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
 }
 
 a{
@@ -62,22 +83,4 @@ a{
 }
 a:hover{
     color:#ff00f2;
-}
-#boxTasas{
-    background-color: aqua;
-    color: rgb(0, 0, 0);
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    
-    top: 40px;
-    left: 40px;
-
-}
-#boxTasas2{
-    justify-content: center;
-    text-align: center;
-    text-justify:auto;
-
 }
